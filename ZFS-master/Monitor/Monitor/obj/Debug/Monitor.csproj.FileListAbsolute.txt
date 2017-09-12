@@ -1,0 +1,17 @@
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\bin\Debug\Monitor.exe.config
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\bin\Debug\Monitor.exe
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\bin\Debug\Monitor.pdb
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\obj\Debug\Monitor.csprojResolveAssemblyReference.cache
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\obj\Debug\MainWindow.g.cs
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\obj\Debug\App.g.cs
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\obj\Debug\Monitor_MarkupCompile.cache
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\obj\Debug\Monitor_MarkupCompile.lref
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\obj\Debug\App.baml
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\obj\Debug\color.baml
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\obj\Debug\ListStyle.baml
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\obj\Debug\MainWindow.baml
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\obj\Debug\Monitor.g.resources
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\obj\Debug\Monitor.Properties.Resources.resources
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\obj\Debug\Monitor.csproj.GenerateResource.Cache
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\obj\Debug\Monitor.exe
+E:\xiaoxueqi\ZFS-master1.3\ZFS-master\Monitor\Monitor\obj\Debug\Monitor.pdb
