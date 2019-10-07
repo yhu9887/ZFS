@@ -25,7 +25,8 @@ FileServer管理每个文件都需要通过文件编号来完成，在其内存�
  3. 多个StorageNode应用，提供文件的存储能力。提供向备份节点服务器进行文件备份功能。
  
  4.  一个监控程序，不会swing,用的C#编写。
-
+ 
+![zfs.png](https://i.loli.net/2019/10/07/9tNy65n7lVwLIWP.png)
 
 **StorageNode应用程序**提供文件的网络存储能力，在每个拥有硬盘文件存储能力的服务器节点上运行该程序。
 该应用程序读取运行文件夹下的名称为storage*.properties
