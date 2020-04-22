@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FileServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FileInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="150">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -167,9 +167,9 @@
         <option value="$PROJECT_DIR$/src/GUIFileNotifier.java" />
         <option value="$PROJECT_DIR$/src/GUIStorageNodeNotifier.java" />
         <option value="$PROJECT_DIR$/src/StNodeInfo.java" />
-        <option value="$PROJECT_DIR$/src/FileServer.java" />
         <option value="$PROJECT_DIR$/src/ClientListener.java" />
         <option value="$PROJECT_DIR$/src/FileInfo.java" />
+        <option value="$PROJECT_DIR$/src/FileServer.java" />
       </list>
     </option>
   </component>
@@ -177,8 +177,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="183" />
-    <option name="y" value="164" />
+    <option name="x" value="146" />
+    <option name="y" value="73" />
     <option name="width" value="1924" />
     <option name="height" value="840" />
   </component>
@@ -491,15 +491,15 @@
       <workItem from="1500376242334" duration="3807000" />
       <workItem from="1500385585266" duration="3476000" />
       <workItem from="1500423573367" duration="8487000" />
-      <workItem from="1587594314242" duration="1592000" />
+      <workItem from="1587594314242" duration="1755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230796000" />
+    <option name="totallyTimeSpent" value="230959000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="408" width="1924" height="840" extended-state="0" />
+    <frame x="146" y="73" width="1924" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49603623" visible="true" weight="0.18597236" />
@@ -648,16 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FileOperationListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -687,8 +677,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FileInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="150">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

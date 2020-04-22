@@ -7,7 +7,8 @@ import java.util.concurrent.Executors;
 
 /**
  * FileServe.java
- * This defines the server side of our product
+ * This defines the server side of our product.
+ * It will generate and manage all the other classes define under this FileServer.
  * @author  Yibao Hu
  */
 public class FileServer {
