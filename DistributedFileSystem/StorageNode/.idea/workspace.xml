@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71307731-3aad-4ab7-8ac9-240f4cc13370" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StorageNode/FileListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StorageNode/RegisterAndUpdate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StorageNode/StorageNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StorageNode/Volume.class" beforeDir="false" />
-    </list>
+    <list default="true" id="71307731-3aad-4ab7-8ac9-240f4cc13370" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StorageNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1995">
-              <caret line="146" column="6" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
+            <state relative-caret-position="134">
+              <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#refreshVolume#0;class#StorageNode#0" />
@@ -50,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FileListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+            <state relative-caret-position="225">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,8 +121,8 @@
         <option value="$PROJECT_DIR$/storage4.properties" />
         <option value="$PROJECT_DIR$/src/StTest.java" />
         <option value="$PROJECT_DIR$/storage5.properties" />
-        <option value="$PROJECT_DIR$/src/StorageNode.java" />
         <option value="$PROJECT_DIR$/src/FileListener.java" />
+        <option value="$PROJECT_DIR$/src/StorageNode.java" />
       </list>
     </option>
   </component>
@@ -411,12 +403,12 @@
       <workItem from="1500376207531" duration="4745000" />
       <workItem from="1500388066193" duration="2320000" />
       <workItem from="1500423512684" duration="7233000" />
-      <workItem from="1587597106217" duration="266000" />
+      <workItem from="1587597106217" duration="404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195395000" />
+    <option name="totallyTimeSpent" value="195533000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,23 +485,6 @@
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/net/DualStackPlainSocketImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/StTest.java" />
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/File.java" />
-    <entry file="file://$PROJECT_DIR$/src/StorageNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="146" column="6" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#refreshVolume#0;class#StorageNode#0" />
-            <element signature="e#3995#3996#0" expanded="true" />
-            <element signature="e#4025#4026#0" expanded="true" />
-            <element signature="e#4106#4107#0" expanded="true" />
-            <element signature="e#4135#4136#0" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
-            <element signature="e#4198#4199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage1.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -547,10 +522,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FileListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+        <state relative-caret-position="225">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StorageNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#refreshVolume#0;class#StorageNode#0" />
+            <element signature="e#3995#3996#0" expanded="true" />
+            <element signature="e#4025#4026#0" expanded="true" />
+            <element signature="e#4106#4107#0" expanded="true" />
+            <element signature="e#4135#4136#0" expanded="true" />
+            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4198#4199#0" expanded="true" />
           </folding>
         </state>
       </provider>

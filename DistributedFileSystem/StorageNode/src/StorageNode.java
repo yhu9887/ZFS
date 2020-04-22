@@ -5,6 +5,14 @@ import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * StorageNode.java
+ *
+ * According to the content generated in the property file,
+ * it will get the info of node to be deleted and send the node info to the file server
+ *
+ * @author Lei Cao, Chuhan Wang, Suyue Jiang, Yibao Hu
+ */
 public class StorageNode {
     String nodeName;
     String nodeIP;
