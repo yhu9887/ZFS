@@ -3,6 +3,11 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 
+/**
+ * GUIFileNotifier.java
+ * Send the uploaded info of file to the monitor service
+ * @author  Lei Cao, Chuhan Wang, Suyue Jiang, Yibao Hu
+ */
 public class GUIFileNotifier implements Runnable{
     private final int GUI_FILE_PORT=35001;
     @Override

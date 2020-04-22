@@ -47,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FileDeleter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="30">
+              <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -89,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GUIFileNotifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="60">
+              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -163,13 +163,13 @@
         <option value="$PROJECT_DIR$/src/HeartbeatListener.java" />
         <option value="$PROJECT_DIR$/src/NodeAliveChecker.java" />
         <option value="$PROJECT_DIR$/src/FileOperationListener.java" />
-        <option value="$PROJECT_DIR$/src/GUIFileNotifier.java" />
         <option value="$PROJECT_DIR$/src/GUIStorageNodeNotifier.java" />
         <option value="$PROJECT_DIR$/src/StNodeInfo.java" />
         <option value="$PROJECT_DIR$/src/ClientListener.java" />
         <option value="$PROJECT_DIR$/src/FileInfo.java" />
         <option value="$PROJECT_DIR$/src/FileServer.java" />
         <option value="$PROJECT_DIR$/src/FileDeleter.java" />
+        <option value="$PROJECT_DIR$/src/GUIFileNotifier.java" />
       </list>
     </option>
   </component>
@@ -491,12 +491,12 @@
       <workItem from="1500376242334" duration="3807000" />
       <workItem from="1500385585266" duration="3476000" />
       <workItem from="1500423573367" duration="8487000" />
-      <workItem from="1587594314242" duration="1895000" />
+      <workItem from="1587594314242" duration="2007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231099000" />
+    <option name="totallyTimeSpent" value="231211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="322" width="1924" height="840" extended-state="0" />
@@ -624,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUIFileNotifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUIStorageNodeNotifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -687,8 +680,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FileDeleter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="30">
+          <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUIFileNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
         </state>
       </provider>
     </entry>
