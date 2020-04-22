@@ -84,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NodeAliveChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="45">
+              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -114,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HeartbeatListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="30">
+              <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -164,7 +164,6 @@
         <option value="$PROJECT_DIR$/FileInfo.txt" />
         <option value="$PROJECT_DIR$/src/FIleServer.java" />
         <option value="$PROJECT_DIR$/FileInfo.dat" />
-        <option value="$PROJECT_DIR$/src/NodeAliveChecker.java" />
         <option value="$PROJECT_DIR$/src/FileOperationListener.java" />
         <option value="$PROJECT_DIR$/src/GUIStorageNodeNotifier.java" />
         <option value="$PROJECT_DIR$/src/StNodeInfo.java" />
@@ -174,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/FileDeleter.java" />
         <option value="$PROJECT_DIR$/src/GUIFileNotifier.java" />
         <option value="$PROJECT_DIR$/src/HeartbeatListener.java" />
+        <option value="$PROJECT_DIR$/src/NodeAliveChecker.java" />
       </list>
     </option>
   </component>
@@ -181,8 +181,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-41" />
-    <option name="y" value="353" />
+    <option name="x" value="-77" />
+    <option name="y" value="410" />
     <option name="width" value="1924" />
     <option name="height" value="840" />
   </component>
@@ -495,15 +495,15 @@
       <workItem from="1500376242334" duration="3807000" />
       <workItem from="1500385585266" duration="3476000" />
       <workItem from="1500423573367" duration="8487000" />
-      <workItem from="1587594314242" duration="2135000" />
+      <workItem from="1587594314242" duration="2223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231339000" />
+    <option name="totallyTimeSpent" value="231427000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-41" y="353" width="1924" height="840" extended-state="0" />
+    <frame x="-77" y="410" width="1924" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49603623" visible="true" weight="0.18597236" />
@@ -621,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NodeAliveChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUIStorageNodeNotifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -691,8 +684,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HeartbeatListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="30">
+          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NodeAliveChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>

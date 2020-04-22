@@ -1,3 +1,9 @@
+
+/**
+ * NodeAliveChecker.java
+ * Checks the alive node according to the information received
+ * @author  Lei Cao, Chuhan Wang, Suyue Jiang, Yibao Hu
+ */
 public class NodeAliveChecker implements Runnable{
     int last=-1;
     @Override
