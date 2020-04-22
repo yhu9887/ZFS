@@ -2,6 +2,13 @@ import java.io.*;
 import java.net.*;
 import java.util.Properties;
 
+/**
+ * FileListner.java
+ *
+ * This file implements the detailed functions of delete, upload and download
+ *
+ * @author Lei Cao, Chuhan Wang, Suyue Jiang, Yibao Hu
+ */
 class FileListener implements Runnable {
     private final int FilePort;
     private final String rootDir;
