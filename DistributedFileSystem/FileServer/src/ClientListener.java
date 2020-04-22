@@ -4,6 +4,14 @@ import java.net.Socket;
 import java.util.Collections;
 import java.util.UUID;
 
+/**
+ * This is the client listener class
+ * It will listen to the upload, download and delete operations from the client
+ * and dealing the operations.
+ * It will generally return uuid, main node, and backup the node to the client
+ *
+ * @author Lei Cao, Chuhan Wang, Suyue Jiang, Yibao Hu
+ */
 public class ClientListener implements Runnable {
     private ServerSocket ss = new ServerSocket(FileServer.SERVER_CLIENT_PORT);
     private Socket s;

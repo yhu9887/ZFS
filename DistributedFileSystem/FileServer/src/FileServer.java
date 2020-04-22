@@ -5,6 +5,11 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * FileServe.java
+ * This defines the server side of our product
+ * @author  Yibao Hu
+ */
 public class FileServer {
     static final int SERVER_HEART_PORT =30001;
     static final int SERVER_CLIENT_PORT=30002;

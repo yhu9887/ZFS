@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f025984-9216-4556-9aeb-73fed2d66a0e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileClient/FileClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +67,7 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
+    <option name="x" value="548" />
     <option name="y" value="23" />
     <option name="width" value="1575" />
     <option name="height" value="840" />
@@ -328,18 +324,18 @@
       <workItem from="1500376250710" duration="2860000" />
       <workItem from="1500388054740" duration="1199000" />
       <workItem from="1500423582850" duration="8198000" />
-      <workItem from="1587592698651" duration="1238000" />
+      <workItem from="1587592698651" duration="1556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171894000" />
+    <option name="totallyTimeSpent" value="172212000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="23" width="1575" height="840" extended-state="0" />
+    <frame x="548" y="23" width="1575" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19569471" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19569471" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Nl-Palette" order="3" />
@@ -410,6 +406,15 @@
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/net/Socket.java" />
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/BufferedInputStream.java" />
     <entry file="file://$PROJECT_DIR$/test.txt" />
+    <entry file="file://$PROJECT_DIR$/../FileServer/src/FileServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FileClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7260">
