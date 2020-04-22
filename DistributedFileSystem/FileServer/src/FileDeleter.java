@@ -3,6 +3,12 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
 
+/**
+ * FileDeleter.java
+ * By using the UUID and forwardtable to find the node of the file,
+ * and send delete request to the node
+ * @author  Lei Cao, Chuhan Wang, Suyue Jiang, Yibao Hu
+ */
 public class FileDeleter implements Runnable{
     @Override
     public void run() {

@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
  * FileServe.java
  * This defines the server side of our product.
  * It will generate and manage all the other classes define under this FileServer.
- * @author  Yibao Hu
+ * @author  Lei Cao, Chuhan Wang, Suyue Jiang, Yibao Hu
  */
 public class FileServer {
     static final int SERVER_HEART_PORT =30001;
