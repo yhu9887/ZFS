@@ -1,6 +1,20 @@
 import java.io.*;
 import java.security.NoSuchAlgorithmException;
 
+/**
+ * FileInfo.java
+ * This is the FileInfo class
+ * It defines the following arributes to a file:
+ * fileName
+ * uuid
+ * length
+ * actualLength
+ * mainNode
+ * backupNpde
+ * md5
+ *
+ * @author Lei Cao, Chuhan Wang, Suyue Jiang, Yibao Hu
+ */
 public class FileInfo implements Serializable{
     String fileName;
     String uuid;
