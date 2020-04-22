@@ -1,5 +1,4 @@
-import sun.security.krb5.internal.KdcErrException;
-
+//import sun.security.krb5.internal.KdcErrException;
 import javax.annotation.processing.SupportedSourceVersion;
 import javax.crypto.*;
 import javax.crypto.spec.SecretKeySpec;
@@ -16,6 +15,14 @@ import java.util.ArrayList;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
+/**
+ * FileClient.java
+ * This is the client side of our project
+ * You can start multiple clients by re-running this file
+ * It provides functions such as upload files, download files and delete files
+ *
+ * @author: Lei Cao, Chuhan Wang,  Yibao Hu, Suyue Jiang,
+ */
 public class FileClient {
     private static final String FILE_SERVER_IP="127.0.0.1";
     private static final int FILE_SERVER_PORT=30002;
@@ -25,7 +32,13 @@ public class FileClient {
     private static final int DECRYPT=2;
     private static final String ROOT_DIR="d:\\zsy";
 
-    //Calculate the md5 of the file.
+
+    /**
+     * This is the getMD5 method
+     * According to the content of the file, it will generate the md5 of the file
+     * @param fpath
+     * @return A string representing the md5 of the file
+     */
     static String getMD5(String fpath) {
         try {
             MessageDigest md5 = MessageDigest.getInstance("MD5");
@@ -60,6 +73,17 @@ public class FileClient {
         return null;
     }
 
+    /**
+     * This is the upload method
+     * This realize the upload function of the client,
+     * it will first connect to the server, send requests to the sever,
+     * the server will send back the uuid.node of the file
+     * and make a backup of the node information.
+     * According to this information, it will establish the connection of two nodes, and
+     * encrypt it and upload the file.
+     * @param fpath
+     * @throws InterruptedException
+     */
     static void upload(String fpath) throws InterruptedException {
         String nodeBack;
         String nodeMain;
@@ -148,6 +172,14 @@ public class FileClient {
         }
     }
 
+    /**
+     * This is the download method
+     * This is quite similar to the upload method.
+     * By using the uuid, it will find the information of the node of the file
+     * and make a connection, it then will decrypt the file and save it to the
+     * specific folder.
+     * @param uuid
+     */
     static void download(String uuid) {
         try {
             //Get where the file is stored on which storage node.
@@ -234,6 +266,12 @@ public class FileClient {
         }
     }
 
+    /**
+     * This is the delete method
+     * By using the uuid, it will delete the target file,
+     * It will send request to the fileserver and the fileserver will deal with this issue
+     * @param uuid
+     */
     static void delete(String uuid){
         try {
             PrintWriter out = new PrintWriter(socket.getOutputStream());
@@ -255,6 +293,10 @@ public class FileClient {
         }
     }
 
+    /**
+     * This is the connect method
+     * This method will make a connection to the fileserver
+     */
     static void connect(){
         while (true){
             System.out.printf("Trying connecting to the server %s:%d\n",FILE_SERVER_IP,FILE_SERVER_PORT);
@@ -277,6 +319,10 @@ public class FileClient {
 
     static SecretKey key;
 
+    /**
+     * This is the generateKey method
+     * This method will generate a key for the use of encryption
+     */
     static void generateKey(){
         KeyGenerator keygen= null;
         try {
@@ -290,6 +336,13 @@ public class FileClient {
         key=new SecretKeySpec(encode,"AES");
     }
 
+    /**
+     * This is the aes method.
+     * This is the algorithm we will use to encrypt our information
+     * @param content
+     * @param mode
+     * @return
+     */
     static byte[] aes(byte[] content,int mode){
         try {
             Cipher cipher=Cipher.getInstance("AES");
@@ -306,6 +359,12 @@ public class FileClient {
         return null;
     }
 
+    /**
+     * This is the main method
+     * It will read the operations sent by the user and call the other functions
+     * @param args
+     * @throws NoSuchAlgorithmException
+     */
     public static void main(String[] args) throws NoSuchAlgorithmException {
         try{
             connect();
