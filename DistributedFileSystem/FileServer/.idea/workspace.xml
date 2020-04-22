@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StNodeInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="60">
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
               <folding>
                 <element signature="e#726#727#0" expanded="true" />
                 <element signature="e#789#790#0" expanded="true" />
@@ -84,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NodeAliveChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -105,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUIStorageNodeNotifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="270">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -166,7 +166,6 @@
         <option value="$PROJECT_DIR$/FileInfo.dat" />
         <option value="$PROJECT_DIR$/src/FileOperationListener.java" />
         <option value="$PROJECT_DIR$/src/GUIStorageNodeNotifier.java" />
-        <option value="$PROJECT_DIR$/src/StNodeInfo.java" />
         <option value="$PROJECT_DIR$/src/ClientListener.java" />
         <option value="$PROJECT_DIR$/src/FileInfo.java" />
         <option value="$PROJECT_DIR$/src/FileServer.java" />
@@ -174,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/GUIFileNotifier.java" />
         <option value="$PROJECT_DIR$/src/HeartbeatListener.java" />
         <option value="$PROJECT_DIR$/src/NodeAliveChecker.java" />
+        <option value="$PROJECT_DIR$/src/StNodeInfo.java" />
       </list>
     </option>
   </component>
@@ -181,8 +181,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-77" />
-    <option name="y" value="410" />
+    <option name="x" value="43" />
+    <option name="y" value="182" />
     <option name="width" value="1924" />
     <option name="height" value="840" />
   </component>
@@ -207,6 +207,12 @@
               <item name="FileServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="FileServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FileServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileServer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="StNodeInfo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -495,15 +501,15 @@
       <workItem from="1500376242334" duration="3807000" />
       <workItem from="1500385585266" duration="3476000" />
       <workItem from="1500423573367" duration="8487000" />
-      <workItem from="1587594314242" duration="2223000" />
+      <workItem from="1587594314242" duration="2315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231427000" />
+    <option name="totallyTimeSpent" value="231519000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-77" y="410" width="1924" height="840" extended-state="0" />
+    <frame x="79" y="363" width="1924" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49603623" visible="true" weight="0.18597236" />
@@ -608,29 +614,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TryDelete.dat" />
     <entry file="file://$PROJECT_DIR$/FileInfo.dat" />
-    <entry file="file://$PROJECT_DIR$/src/StNodeInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding>
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1673#1674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUIStorageNodeNotifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ClientListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
@@ -691,8 +674,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NodeAliveChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUIStorageNodeNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StNodeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding>
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#1611#1612#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

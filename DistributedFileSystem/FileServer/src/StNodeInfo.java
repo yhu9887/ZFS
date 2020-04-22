@@ -1,5 +1,10 @@
 import java.io.IOException;
 
+/**
+ * StNodeInfo.java
+ * This defines the information of a node
+ * @author  Lei Cao, Chuhan Wang, Suyue Jiang, Yibao Hu
+ */
 public class StNodeInfo implements Comparable{
     String nodeName;
     String nodeIP;
