@@ -2,6 +2,12 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
+
+/**
+ * HeartbeatListner.java
+ * It receives the information from the client every one second
+ * @author  Lei Cao, Chuhan Wang, Suyue Jiang, Yibao Hu
+ */
 public class HeartbeatListener implements Runnable{
     @Override
     public void run() {
